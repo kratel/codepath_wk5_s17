@@ -11,9 +11,11 @@ The following **required** functionality is completed:
 
 2\. Encrypted Message 1
   * [x]  Required: Decrypt the government message
-  		 * **Decrypted Message** I heard about your current situation. Do you know who hacked APEX? -- The Chairman
+  * **Decrypted Message** 
+  * I heard about your current situation. Do you know who hacked APEX? -- The Chairman
   * [x]  Required: Encrypt a response and include in this README
-  		 * **Response Message** DgoBUdgpSlXLn//SRbfXnt8ZJs3iesa9NcTXQGUCIPhOIEajqZkoCWBwU87FgZDubeRsE1s745RhxaClla8X0QZ/T5AMF8gVCIOyHDUShgRrB9ESk1R/vBaUuiHgi9OH
+  * **Response Message**
+  * DgoBUdgpSlXLn//SRbfXnt8ZJs3iesa9NcTXQGUCIPhOIEajqZkoCWBwU87FgZDubeRsE1s745RhxaClla8X0QZ/T5AMF8gVCIOyHDUShgRrB9ESk1R/vBaUuiHgi9OH
 
 3\. Generate Public-Private Keys
   * [x]  Required: Repair the key generator code
@@ -30,27 +32,27 @@ The following **required** functionality is completed:
   * **Decrypted Message**
   * Cannot access APEX from this location. Send new agent codename and public key so I can contact. Encrypt response to protect codename. Include signature to verify identity and message integrity. -- sydneybristow
   * [x]  Required: Verify the message
-         * **Not Valid Signature**
+  * **Not Valid Signature**
   * [x]  Required: Include a response message in this README
-         * To: sydneybristow
-         * From: agent99
-         * Subject: Encrypted and Signed Message
-         * Body:
+  * To: sydneybristow
+  * From: agent99
+  * Subject: Encrypted and Signed Message
+  * Body:
 
-         * jfZbr9EFFjkt0VId7+8NTUzltC+r3tpO7oAbnK7PBL5MXH111NMzDsQ7txTkC1eV3I2synkNkAkJyTVkZ/wejIFpNQtymmXusqM8vEAgKUhohzFgv0SZaPVC2dcYECMiV0gDriBJjLTr6ELJfc8kQsNCNZWUz4BnIHUXtZFj58MVH5dHGvMWj9lMO9g/d6d7a62+wt3FTwfNtC8V88Lo8CLb+4GEZ7FZtbL9YPIn0BmiO9tWMZasWYSvtbxcz8rfIMK3ZrwOSenOUJ5Iqi2BC9k0t0IZXseFXoFSVNWOCMbD7npHrpfh8n0NOVqsGC9rXh943yPMLtizmu2vlXtrEg==
+  * jfZbr9EFFjkt0VId7+8NTUzltC+r3tpO7oAbnK7PBL5MXH111NMzDsQ7txTkC1eV3I2synkNkAkJyTVkZ/wejIFpNQtymmXusqM8vEAgKUhohzFgv0SZaPVC2dcYECMiV0gDriBJjLTr6ELJfc8kQsNCNZWUz4BnIHUXtZFj58MVH5dHGvMWj9lMO9g/d6d7a62+wt3FTwfNtC8V88Lo8CLb+4GEZ7FZtbL9YPIn0BmiO9tWMZasWYSvtbxcz8rfIMK3ZrwOSenOUJ5Iqi2BC9k0t0IZXseFXoFSVNWOCMbD7npHrpfh8n0NOVqsGC9rXh943yPMLtizmu2vlXtrEg==
 
-         * -----BEGIN PUBLIC KEY-----
-         * MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2pO/kC0WF9JKeXLcQcoj
-         * ggQvh8/sLPDTD7sJ4CEldjWwaU11BS7UxBdXKSrY/+eazhJQCbqpQVvfI/3/1Gon
-         * YQ7GR9I2byKzSEfd+g/Nd4gpgMPs49pmCOMR9YlhuuxWUwlbtSY+S32Ctu/a+IBy
-         * dYcWd+BDZwTYRcZGGrY3JJQmvSwO2XtAXFrI7HP48LxGuAVIPeUTA7bzbQupEmuN
-         * GRV5RAEtuXy63wGgBf+nKoIFId6lBZqjDJ7xvii3ss4WxqRXVAafCu8VtrbbUdaL
-         * ArtLcoE43djmU05YHyQN1GcQ27DbyYydgaPMGT+X0BGThRyMcKt7C48cqM1CrS6U
-         * xQIDAQAB
-         * -----END PUBLIC KEY-----
+  * -----BEGIN PUBLIC KEY-----
+  * MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2pO/kC0WF9JKeXLcQcoj
+  * ggQvh8/sLPDTD7sJ4CEldjWwaU11BS7UxBdXKSrY/+eazhJQCbqpQVvfI/3/1Gon
+  * YQ7GR9I2byKzSEfd+g/Nd4gpgMPs49pmCOMR9YlhuuxWUwlbtSY+S32Ctu/a+IBy
+  * dYcWd+BDZwTYRcZGGrY3JJQmvSwO2XtAXFrI7HP48LxGuAVIPeUTA7bzbQupEmuN
+  * GRV5RAEtuXy63wGgBf+nKoIFId6lBZqjDJ7xvii3ss4WxqRXVAafCu8VtrbbUdaL
+  * ArtLcoE43djmU05YHyQN1GcQ27DbyYydgaPMGT+X0BGThRyMcKt7C48cqM1CrS6U
+  * xQIDAQAB
+  * -----END PUBLIC KEY-----
 
-         * Signature:
-         * S0bOvAGvY1c+IcdQJ5e4wzdwCHh7yYbWgUkbWoR2WoMPqCVTn9I/L9Z1Vw/6N/eNTOG9attYj2NbIEz40uQKeuJNekOQZdCbIhM4reQxySuHCJq+JrPq+cbGXKkn7L+2GaWDJiivT3AFN4i/knDVrdD8n5bf7GxeCmIAY6lvAySR9/paCOPfaMfHWHkofE2ZDnIvPJ2QWdsvgFj4uzOpn1I3jYnMLcOA+n7VyLc6yjs7UpgplPiqMySWJsy3hLGKpQM7wPq7dZbRseiVC2al68MH9YIOU18/jINP8K03J0InYOVySQCeu1AMY0BVqPu0FlhyTv8YRIGmSOGED4Qn7Q==
+  * **Signature:**
+  * S0bOvAGvY1c+IcdQJ5e4wzdwCHh7yYbWgUkbWoR2WoMPqCVTn9I/L9Z1Vw/6N/eNTOG9attYj2NbIEz40uQKeuJNekOQZdCbIhM4reQxySuHCJq+JrPq+cbGXKkn7L+2GaWDJiivT3AFN4i/knDVrdD8n5bf7GxeCmIAY6lvAySR9/paCOPfaMfHWHkofE2ZDnIvPJ2QWdsvgFj4uzOpn1I3jYnMLcOA+n7VyLc6yjs7UpgplPiqMySWJsy3hLGKpQM7wPq7dZbRseiVC2al68MH9YIOU18/jINP8K03J0InYOVySQCeu1AMY0BVqPu0FlhyTv8YRIGmSOGED4Qn7Q==
 
 7\. Agent Messages
   * [x]  Required: Repair the dropbox code
