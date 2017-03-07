@@ -32,7 +32,6 @@ The following **required** functionality is completed:
   * **Decrypted Message**
   * Cannot access APEX from this location. Send new agent codename and public key so I can contact. Encrypt response to protect codename. Include signature to verify identity and message integrity. -- sydneybristow
   * [x]  Required: Verify the message
-  * **Not Valid Signature**
   * [x]  Required: Include a response message in this README
   * To: sydneybristow
   * From: agent99
@@ -73,7 +72,27 @@ The following objectives are **optional**:
 * Bonus Objective 2\.
   * [x]  Write a report of your discoveries (longer than 300 characters).
   * [x]  Compose a secure email for sending over an insecure network.
-  * [ ]  Include the email with your encrypted report in this README.
+  * [x]  Include the email with your encrypted report in this README.
+  * To: APEX HQ
+  * From: agent99
+  * Subject: Encrypted and Signed Message
+
+  * Instructions:
+  * Decrypt Password with APEX HQ Private Key. Use that password to decrypt Body using AES-256-CBC.
+
+  * Password needed for decryption (encrypted with Apex Public Key):
+  * c5PatXJP2saT1j1y584kQBTzBJg1Dj1MSb+qegp1aYikbDp6GSeGh2K409RrxpOZr/LTwXWnJGq2bWglO9azkDeLT78N+Rnfx4X8aYGRLEzWL4ZB2ZQopGwLdJHH2flwe9Edq7pLBTKA3JMIEW9yHoUE3sQlMR1Rgmb6o42069+HbOhV3zDiCnXM5Ain7u33spF9Nc29V+yhnAOfrvsSKqirrqEZUY3Wx2UGPkc23BGIrCVbq0x7CS2WULpwcwsi7pwPxijnreYQ3iNw8qW0p1u8POVVd05GEjJX2iPDS1mXws4uztj71kYTgz3S6x8G+6tDerArz/uZrD8XDTOWTQ==
+
+  * Signature for pass:
+  * ndv3upfY9KZ7CJEXnar1CH/kX2xPFUus5LjKDf4Hux6eLDFsBEA1ASpsR+F0dTFFjSaIkVMxz3/INXfRU0w4Dj6BY7l+xH4aRZePhoYweJS166rQ52PR015az9e8mCGz92ykm3pS0qfTHVAfa/jIsdrBl/pQ6wfomryLPNiIiWWk9JzLEVyYpedNXiQ+fg1CUz4o041o1iZYPiIOMNIJXMlkWOZmO7EXrTfDO3EE8lOM1k5G5ge7kBoNaW/r6/IpIVK62LiTIqBe15xZIUFAnmXB0nWfg2qde0l4TcNoq/NZjcNM+KFcu0mAOsTR0TFYyc/htJuz7pLU+mvnE7jigg==
+
+  * Body Encrypted using AES-256-CBC
+  * with password above:
+  * AriUPTau914TU+HgFKZXobuhcLKyp/xIy/sl9FNoH/fMQX0CesAAz/26uu8DeBy8BiSlOuH6zwtOY2HYRRNjXKhawneR1x4ZPGN9hd+kUB9HWmUVvMt7nLWXCcEGj/XtSWfqzcWhpDKZMypS0CGJ29NTu1l/aCkF2AfV73PZcDdcQe6+j3KQMZs4kK4pg8f3DkBlc2zvSkDD3bN+hCEcBdMmKwWnmLXk1B9i5YMRgQhucph7g08yQnITKRkIl53oqxgbO8nw5CW2HLB58NVo2EmnuQ2Ms0H4yaiwgLMiRwxEiUJE5V9Ljxc7T8QKYu8G2nRp5iXN+pT6lELOWnYU0+Ixgb0IvUdiU1uOp5gzWShqMdxS9w4/9txS+v/Kyc0Mv4q19DEz76Kbo+r7RsGXl3tDnT+nkNXpbGKzexb6LNUy5sVz0/gZzSpjlhN+XXsium8e3N48wJV+elpXR6uoH7TI6Ec9hq+DcH8yToUEVEIfo8muPe/PjMHq1P/R32ck
+
+  * Signature for Body:
+  * x/7mRBkmOgZG4O6cyVHzquhJo82cX7sSsWUBx6wk3ENBuis6pX+GaCRb6OpqqCtO3g3Dv1Zke1kwjoRTVWhLOQ508LO1lzmSj8bGZuIIxOvyQaEWgX46YGOD5axiNhKHPyt7GRBGKV96s1iGYLK0lCo7cacqUqj3e4Jxt5XYH/Fe6FvZj024hyK6ReCSV//+wK7m134QDFgR2iyPlGBxUuBjF/7f4jvLAOJm+vwbJCSqgxMT8axKkrRt7XuHwEg88TXePvRRDDBYYCO9xFBVzBjKGB5gCrBGlgUrEUDr4bdKFwb4IGOhYH/KFRMBTKjPbjznGj4OC2JN9xGE9TLozQ==
+
 
 * Bonus Objective 3\.
   * [x]  Add a "Create/Verify Checksum" section to the Encryption Tools area.
