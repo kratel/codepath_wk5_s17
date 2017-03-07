@@ -110,7 +110,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One challenge I had was I initially implemented my signature verification incorrectly for the messages.php file. I was checking the signature of the plain text instead of checking the signature of the encrypted text which was what was signed, not the plain text. After fixing this the page worked appropriately.
+An extra feature I added was a way for the drop down values for the symmetric encryption/decryption methods to be kept upon submission. This was the default values will reflect which ever method was submitted which made checking the functionality easier.
 
 ## License
 
